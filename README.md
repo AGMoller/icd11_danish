@@ -1,4 +1,4 @@
-# icd11_danish
+# Danish version of ICD 11
 Just thought it'd be nice to make a Danish version of ICD-11. 
 
 
