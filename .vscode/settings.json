@@ -12,6 +12,11 @@
       "**/.venv/**": true
     },
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true
-  }
+    "python.linting.pylintEnabled": true,
+    "[python]": {
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      }
+  },
+}
   
