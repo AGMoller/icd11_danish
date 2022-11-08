@@ -1,0 +1,2192 @@
+[
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForTopLevel.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms",
+        "title": {
+            "@language": "en",
+            "@value": "International Classification of Diseases 11th Revision - ICD-11 for Mortality and Morbidity Statistics"
+        },
+        "releaseId": "2022-02",
+        "availableLanguages": [
+            "ar",
+            "en",
+            "es",
+            "fr",
+            "zh"
+        ],
+        "releaseDate": "2022-02-07",
+        "child": [],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en"
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1435254666",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/588616678",
+            "http://id.who.int/icd/release/11/2022-02/mms/1904876434",
+            "http://id.who.int/icd/release/11/2022-02/mms/979278646",
+            "http://id.who.int/icd/release/11/2022-02/mms/1539889147",
+            "http://id.who.int/icd/release/11/2022-02/mms/1412960686",
+            "http://id.who.int/icd/release/11/2022-02/mms/1935092859",
+            "http://id.who.int/icd/release/11/2022-02/mms/487269828",
+            "http://id.who.int/icd/release/11/2022-02/mms/1000704511",
+            "http://id.who.int/icd/release/11/2022-02/mms/1104303944",
+            "http://id.who.int/icd/release/11/2022-02/mms/1585949804",
+            "http://id.who.int/icd/release/11/2022-02/mms/1959883044",
+            "http://id.who.int/icd/release/11/2022-02/mms/921595235",
+            "http://id.who.int/icd/release/11/2022-02/mms/1251496839",
+            "http://id.who.int/icd/release/11/2022-02/mms/1136802325",
+            "http://id.who.int/icd/release/11/2022-02/mms/145723401",
+            "http://id.who.int/icd/release/11/2022-02/mms/985510409",
+            "http://id.who.int/icd/release/11/2022-02/mms/1646490591",
+            "http://id.who.int/icd/release/11/2022-02/mms/1939815950",
+            "http://id.who.int/icd/release/11/2022-02/mms/255141529",
+            "http://id.who.int/icd/release/11/2022-02/mms/293771399",
+            "http://id.who.int/icd/release/11/2022-02/mms/1760597414",
+            "http://id.who.int/icd/release/11/2022-02/mms/458687859",
+            "http://id.who.int/icd/release/11/2022-02/mms/1435254666/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1435254666",
+        "code": "01",
+        "source": "http://id.who.int/icd/entity/1435254666",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Infections of the fetus or newborn"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/911707612",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/911707612"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Human prion diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1965146397",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1965146397"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Pneumonia"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/142052508",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/142052508"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Certain infectious or parasitic diseases"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter includes certain conditions caused by pathogenic organisms or microorganisms, such as bacteria, viruses, parasites or fungi."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Infection arising from device, implant or graft, not elsewhere classified"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1612485599",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1612485599"
+            }
+        ],
+        "relatedEntitiesInPerinatalChapter": [
+            "http://id.who.int/icd/entity/911707612"
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1630407678",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/879154182",
+            "http://id.who.int/icd/release/11/2022-02/mms/944754984",
+            "http://id.who.int/icd/release/11/2022-02/mms/2009008947",
+            "http://id.who.int/icd/release/11/2022-02/mms/531713107",
+            "http://id.who.int/icd/release/11/2022-02/mms/1167133946",
+            "http://id.who.int/icd/release/11/2022-02/mms/1158485193",
+            "http://id.who.int/icd/release/11/2022-02/mms/1844086508",
+            "http://id.who.int/icd/release/11/2022-02/mms/264268169"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1630407678",
+        "code": "02",
+        "source": "http://id.who.int/icd/entity/1630407678",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Neoplasms"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "An abnormal or uncontrolled cellular proliferation which is not coordinated with an organism's requirements for normal tissue growth, replacement or repair."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1766440644",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/224336967",
+            "http://id.who.int/icd/release/11/2022-02/mms/1762461746",
+            "http://id.who.int/icd/release/11/2022-02/mms/567425990",
+            "http://id.who.int/icd/release/11/2022-02/mms/1766440644/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1766440644/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1766440644",
+        "code": "03",
+        "source": "http://id.who.int/icd/entity/1766440644",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neoplasms of haematopoietic or lymphoid tissues"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/944754984",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/944754984"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of blood, blood-forming organs, or the immune system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1994504557",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1994504557"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the blood or blood-forming organs"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter includes diseases of the blood as well as diseases of blood forming organs."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the immune system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1954798891",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1954798891"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Human immunodeficiency virus disease"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1000704511",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1000704511"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Congenital malformations, deformations or chromosomal abnormalities"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/223744320",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/223744320"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Other diseases of the blood or blood-forming organs or certain disorders involving the immune mechanism complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/809926550",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/809926550"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1954798891",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/587326822",
+            "http://id.who.int/icd/release/11/2022-02/mms/609223181",
+            "http://id.who.int/icd/release/11/2022-02/mms/1008515027",
+            "http://id.who.int/icd/release/11/2022-02/mms/2115467890",
+            "http://id.who.int/icd/release/11/2022-02/mms/642618805",
+            "http://id.who.int/icd/release/11/2022-02/mms/966435382",
+            "http://id.who.int/icd/release/11/2022-02/mms/1860070272",
+            "http://id.who.int/icd/release/11/2022-02/mms/603645706",
+            "http://id.who.int/icd/release/11/2022-02/mms/183978472",
+            "http://id.who.int/icd/release/11/2022-02/mms/1954798891/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1954798891/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1954798891",
+        "code": "04",
+        "source": "http://id.who.int/icd/entity/1954798891",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of blood, blood-forming organs, or the immune system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1994504557",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1994504557"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the immune system"
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neoplasms"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1630407678",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1630407678"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Developmental anomalies"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/223744320",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/223744320"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/21500692",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/461716838",
+            "http://id.who.int/icd/release/11/2022-02/mms/1671987290",
+            "http://id.who.int/icd/release/11/2022-02/mms/155258022",
+            "http://id.who.int/icd/release/11/2022-02/mms/1915134721"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f21500692",
+        "code": "05",
+        "source": "http://id.who.int/icd/entity/21500692",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/922175770",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/922175770"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1156263785",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1156263785"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Endocrine, nutritional or metabolic diseases"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter includes endocrine diseases, nutritional diseases as well as metabolic diseases."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Transitory endocrine or metabolic disorders specific to fetus or newborn"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1004987305",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1004987305"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/334423054",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1516623224",
+            "http://id.who.int/icd/release/11/2022-02/mms/405565289",
+            "http://id.who.int/icd/release/11/2022-02/mms/486722075",
+            "http://id.who.int/icd/release/11/2022-02/mms/76398729",
+            "http://id.who.int/icd/release/11/2022-02/mms/1336943699",
+            "http://id.who.int/icd/release/11/2022-02/mms/1321276661",
+            "http://id.who.int/icd/release/11/2022-02/mms/991786158",
+            "http://id.who.int/icd/release/11/2022-02/mms/108180424",
+            "http://id.who.int/icd/release/11/2022-02/mms/1412387537",
+            "http://id.who.int/icd/release/11/2022-02/mms/1884115764",
+            "http://id.who.int/icd/release/11/2022-02/mms/794195577",
+            "http://id.who.int/icd/release/11/2022-02/mms/1602669465",
+            "http://id.who.int/icd/release/11/2022-02/mms/826065555",
+            "http://id.who.int/icd/release/11/2022-02/mms/310393530",
+            "http://id.who.int/icd/release/11/2022-02/mms/37291724",
+            "http://id.who.int/icd/release/11/2022-02/mms/2110604642",
+            "http://id.who.int/icd/release/11/2022-02/mms/430567349",
+            "http://id.who.int/icd/release/11/2022-02/mms/213458094",
+            "http://id.who.int/icd/release/11/2022-02/mms/882114523",
+            "http://id.who.int/icd/release/11/2022-02/mms/523677473",
+            "http://id.who.int/icd/release/11/2022-02/mms/302122526",
+            "http://id.who.int/icd/release/11/2022-02/mms/334423054/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/334423054/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f334423054",
+        "code": "06",
+        "source": "http://id.who.int/icd/entity/334423054",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Sleep-wake disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/274880002",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/274880002"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Sexual dysfunctions"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/160690465",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/160690465"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Gender incongruence"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/411470068",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/411470068"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Mental, behavioural or neurodevelopmental disorders"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "Mental, behavioural and neurodevelopmental disorders are syndromes characterised by clinically significant disturbance in an individual's cognition, emotional regulation, or behaviour that reflects a dysfunction in the psychological, biological, or developmental processes that underlie mental and behavioural functioning. These disturbances are usually associated with distress or impairment in personal, family, social, educational, occupational, or other important areas of functioning."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Acute stress reaction"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/505909942",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/505909942"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Uncomplicated bereavement"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/2009949293",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/2009949293"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/274880002",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1038292737",
+            "http://id.who.int/icd/release/11/2022-02/mms/2024456840",
+            "http://id.who.int/icd/release/11/2022-02/mms/877557231",
+            "http://id.who.int/icd/release/11/2022-02/mms/1359329403",
+            "http://id.who.int/icd/release/11/2022-02/mms/49589409",
+            "http://id.who.int/icd/release/11/2022-02/mms/151357345",
+            "http://id.who.int/icd/release/11/2022-02/mms/274880002/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/274880002/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f274880002",
+        "code": "07",
+        "source": "http://id.who.int/icd/entity/274880002",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Sleep-wake disorders"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "Sleep-wake disorders are characterised by difficulty initiating or maintaining sleep (insomnia disorders), excessive sleepiness (hypersomnolence disorders), respiratory disturbance during sleep (sleep-related breathing disorders), disorders of the sleep-wake schedule (circadian rhythm sleep-wake disorders), abnormal movements during sleep (sleep-related movement disorders), or problematic behavioural or physiological events that occur while falling asleep, during sleep, or upon arousal from sleep (parasomnia disorders)."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1296093776",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/384289569",
+            "http://id.who.int/icd/release/11/2022-02/mms/1719545571",
+            "http://id.who.int/icd/release/11/2022-02/mms/724748131",
+            "http://id.who.int/icd/release/11/2022-02/mms/1397288146",
+            "http://id.who.int/icd/release/11/2022-02/mms/28995849",
+            "http://id.who.int/icd/release/11/2022-02/mms/843843448",
+            "http://id.who.int/icd/release/11/2022-02/mms/2021326314",
+            "http://id.who.int/icd/release/11/2022-02/mms/1861279867",
+            "http://id.who.int/icd/release/11/2022-02/mms/1730644960",
+            "http://id.who.int/icd/release/11/2022-02/mms/1297080916",
+            "http://id.who.int/icd/release/11/2022-02/mms/76906748",
+            "http://id.who.int/icd/release/11/2022-02/mms/1119245712",
+            "http://id.who.int/icd/release/11/2022-02/mms/23958598",
+            "http://id.who.int/icd/release/11/2022-02/mms/1397803237",
+            "http://id.who.int/icd/release/11/2022-02/mms/1965146397",
+            "http://id.who.int/icd/release/11/2022-02/mms/81068077",
+            "http://id.who.int/icd/release/11/2022-02/mms/988657115",
+            "http://id.who.int/icd/release/11/2022-02/mms/1510094736",
+            "http://id.who.int/icd/release/11/2022-02/mms/1743839677",
+            "http://id.who.int/icd/release/11/2022-02/mms/1125774661",
+            "http://id.who.int/icd/release/11/2022-02/mms/1296093776/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1296093776/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1296093776",
+        "code": "08",
+        "source": "http://id.who.int/icd/entity/1296093776",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Structural developmental anomalies of the nervous system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/215057274",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/215057274"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Syndromes with central nervous system anomalies as a major feature"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1800958996",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1800958996"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Non-viral and unspecified infections of the central nervous system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1585949804",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1585949804"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the nervous system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1088544686",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1088544686"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Paralytic symptoms"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1882771459",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1882771459"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Dissociative neurological symptom disorder"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1069443471",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1069443471"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the nervous system complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/564191997",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/564191997"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the nervous system"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This is a group of conditions characterised as being in or associated with the nervous system."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/868865918",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/946652467",
+            "http://id.who.int/icd/release/11/2022-02/mms/65880823",
+            "http://id.who.int/icd/release/11/2022-02/mms/2000687626",
+            "http://id.who.int/icd/release/11/2022-02/mms/503601360",
+            "http://id.who.int/icd/release/11/2022-02/mms/696932440",
+            "http://id.who.int/icd/release/11/2022-02/mms/551713432",
+            "http://id.who.int/icd/release/11/2022-02/mms/1060046426",
+            "http://id.who.int/icd/release/11/2022-02/mms/1266833063",
+            "http://id.who.int/icd/release/11/2022-02/mms/566574133",
+            "http://id.who.int/icd/release/11/2022-02/mms/1611601779",
+            "http://id.who.int/icd/release/11/2022-02/mms/30317704",
+            "http://id.who.int/icd/release/11/2022-02/mms/201567715",
+            "http://id.who.int/icd/release/11/2022-02/mms/940938694",
+            "http://id.who.int/icd/release/11/2022-02/mms/868865918/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/868865918/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f868865918",
+        "code": "09",
+        "source": "http://id.who.int/icd/entity/868865918",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Contusion of eyeball or orbital tissues"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/969612493",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/969612493"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Foreign body in multiple parts of external eye"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1513405703",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1513405703"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Oculocutaneous albinism"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1189424097",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1189424097"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Traumatic injury to eyeball"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1743180897",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1743180897"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Birth injury to eye"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1804006919",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1804006919"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Late congenital syphilitic oculopathy"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1665042685",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1665042685"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the visual system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/2138796426",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/2138796426"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Structural developmental anomalies of the eye, eyelid or lacrimal apparatus"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/750435296",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/750435296"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the visual system"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This refers to any diseases of the visual system, which includes the eyes and adnexa, the visual pathways and brain areas, which initiate and control visual perception and visually guided behaviour."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Posterior cortical atrophy"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/377572273",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/377572273"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1218729044",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1046187143",
+            "http://id.who.int/icd/release/11/2022-02/mms/902999289",
+            "http://id.who.int/icd/release/11/2022-02/mms/1111681557",
+            "http://id.who.int/icd/release/11/2022-02/mms/601591344",
+            "http://id.who.int/icd/release/11/2022-02/mms/1769556904",
+            "http://id.who.int/icd/release/11/2022-02/mms/2145129894",
+            "http://id.who.int/icd/release/11/2022-02/mms/1218729044/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1218729044/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1218729044",
+        "code": "10",
+        "source": "http://id.who.int/icd/entity/1218729044",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Structural developmental anomalies of the ear"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/108076065",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/108076065"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of ear or mastoid process"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1564218495",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1564218495"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the ear or mastoid process"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter contains diseases of the ear and diseases of the mastoid process."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neoplasms"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1630407678",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1630407678"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/426429380",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/924915526",
+            "http://id.who.int/icd/release/11/2022-02/mms/1663360295",
+            "http://id.who.int/icd/release/11/2022-02/mms/1964269418",
+            "http://id.who.int/icd/release/11/2022-02/mms/1059873720",
+            "http://id.who.int/icd/release/11/2022-02/mms/1703442464",
+            "http://id.who.int/icd/release/11/2022-02/mms/1296696944",
+            "http://id.who.int/icd/release/11/2022-02/mms/162683166",
+            "http://id.who.int/icd/release/11/2022-02/mms/1121431779",
+            "http://id.who.int/icd/release/11/2022-02/mms/291726710",
+            "http://id.who.int/icd/release/11/2022-02/mms/2135151223",
+            "http://id.who.int/icd/release/11/2022-02/mms/1457291912",
+            "http://id.who.int/icd/release/11/2022-02/mms/1458683894",
+            "http://id.who.int/icd/release/11/2022-02/mms/1164983645",
+            "http://id.who.int/icd/release/11/2022-02/mms/723430526",
+            "http://id.who.int/icd/release/11/2022-02/mms/1025888387",
+            "http://id.who.int/icd/release/11/2022-02/mms/1925333068",
+            "http://id.who.int/icd/release/11/2022-02/mms/539975693",
+            "http://id.who.int/icd/release/11/2022-02/mms/966120194",
+            "http://id.who.int/icd/release/11/2022-02/mms/1651137927",
+            "http://id.who.int/icd/release/11/2022-02/mms/426429380/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/426429380/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f426429380",
+        "code": "11",
+        "source": "http://id.who.int/icd/entity/426429380",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the circulatory system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/796618507",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/796618507"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Cerebrovascular diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/843843448",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/843843448"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Functional vascular disorders of the skin"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/588559962",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/588559962"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the circulatory system complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1380872553",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1380872553"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the circulatory system"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This refers to diseases of the organ system that passes nutrients (such as amino acids, electrolytes and lymph), gases, hormones, blood cells, etc. to and from cells in the body to help fight diseases, stabilize body temperature and pH, and to maintain homeostasis."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Congenital malformations, deformations and chromosomal abnormalities"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/223744320",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/223744320"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/197934298",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1971756453",
+            "http://id.who.int/icd/release/11/2022-02/mms/1582386590",
+            "http://id.who.int/icd/release/11/2022-02/mms/915779102",
+            "http://id.who.int/icd/release/11/2022-02/mms/1332995100",
+            "http://id.who.int/icd/release/11/2022-02/mms/111658096",
+            "http://id.who.int/icd/release/11/2022-02/mms/390439470",
+            "http://id.who.int/icd/release/11/2022-02/mms/850824593",
+            "http://id.who.int/icd/release/11/2022-02/mms/370028006",
+            "http://id.who.int/icd/release/11/2022-02/mms/1654881561",
+            "http://id.who.int/icd/release/11/2022-02/mms/760239795",
+            "http://id.who.int/icd/release/11/2022-02/mms/761789312",
+            "http://id.who.int/icd/release/11/2022-02/mms/197934298/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f197934298",
+        "code": "12",
+        "source": "http://id.who.int/icd/entity/197934298",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the respiratory system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/346645181",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/346645181"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Pulmonary heart disease or diseases of pulmonary circulation"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1703442464",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1703442464"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Sleep-related breathing disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/877557231",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/877557231"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the respiratory system complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/923122941",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/923122941"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the respiratory system"
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Congenital malformations, deformations and chromosomal abnormalities"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/223744320",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/223744320"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1256772020",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1167594753",
+            "http://id.who.int/icd/release/11/2022-02/mms/1594312948",
+            "http://id.who.int/icd/release/11/2022-02/mms/914520008",
+            "http://id.who.int/icd/release/11/2022-02/mms/2086488820",
+            "http://id.who.int/icd/release/11/2022-02/mms/1980672892",
+            "http://id.who.int/icd/release/11/2022-02/mms/1644587915",
+            "http://id.who.int/icd/release/11/2022-02/mms/1305923085",
+            "http://id.who.int/icd/release/11/2022-02/mms/1784240230",
+            "http://id.who.int/icd/release/11/2022-02/mms/587365414",
+            "http://id.who.int/icd/release/11/2022-02/mms/1726554290",
+            "http://id.who.int/icd/release/11/2022-02/mms/851941810",
+            "http://id.who.int/icd/release/11/2022-02/mms/1265113635",
+            "http://id.who.int/icd/release/11/2022-02/mms/696703416",
+            "http://id.who.int/icd/release/11/2022-02/mms/1294458332",
+            "http://id.who.int/icd/release/11/2022-02/mms/598093212",
+            "http://id.who.int/icd/release/11/2022-02/mms/132592466",
+            "http://id.who.int/icd/release/11/2022-02/mms/2031646451",
+            "http://id.who.int/icd/release/11/2022-02/mms/1256772020/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1256772020/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1256772020",
+        "code": "13",
+        "source": "http://id.who.int/icd/entity/1256772020",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Digestive system disorders of fetus or newborn"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/494951911",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/494951911"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the digestive system or abdomen"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/14576949",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/14576949"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Structural developmental anomalies of the digestive tract"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1057832531",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1057832531"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the digestive system complicating pregnancy, childbirth or the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1135143938",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1135143938"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the digestive system"
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neoplasms"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1630407678",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1630407678"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Mental, behavioural or neurodevelopmental disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/334423054",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/334423054"
+            }
+        ],
+        "relatedEntitiesInPerinatalChapter": [
+            "http://id.who.int/icd/entity/494951911"
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1639304259",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/384984571",
+            "http://id.who.int/icd/release/11/2022-02/mms/533054712",
+            "http://id.who.int/icd/release/11/2022-02/mms/237197715",
+            "http://id.who.int/icd/release/11/2022-02/mms/106304476",
+            "http://id.who.int/icd/release/11/2022-02/mms/157326074",
+            "http://id.who.int/icd/release/11/2022-02/mms/1569145337",
+            "http://id.who.int/icd/release/11/2022-02/mms/602989108",
+            "http://id.who.int/icd/release/11/2022-02/mms/1803768976",
+            "http://id.who.int/icd/release/11/2022-02/mms/489508344",
+            "http://id.who.int/icd/release/11/2022-02/mms/1223380074",
+            "http://id.who.int/icd/release/11/2022-02/mms/1397253045",
+            "http://id.who.int/icd/release/11/2022-02/mms/1173690756",
+            "http://id.who.int/icd/release/11/2022-02/mms/141396655",
+            "http://id.who.int/icd/release/11/2022-02/mms/1336446723",
+            "http://id.who.int/icd/release/11/2022-02/mms/1365615047",
+            "http://id.who.int/icd/release/11/2022-02/mms/1639304259/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1639304259/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1639304259",
+        "code": "14",
+        "source": "http://id.who.int/icd/entity/1639304259",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Haematoma of surgical wound of skin"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1953940269",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1953940269"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Superficial incisional site infection"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/75951638",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/75951638"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neonatal phototherapy burn"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1826995932",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1826995932"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms or signs involving the skin"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/610583617",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/610583617"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the skin"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "Diseases of the skin incorporate conditions affecting the epidermis, its appendages (hair, hair follicle, sebaceous glands, apocrine sweat gland apparatus, eccrine sweat gland apparatus and nails) and associated mucous membranes (conjunctival, oral and genital), the dermis, the cutaneous vasculature and the subcutaneous tissue (subcutis)."
+        },
+        "inclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the epidermis"
+                }
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the dermis"
+                }
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of the epidermal appendages (hair, hair follicle, sebaceous glands, apocrine sweat gland apparatus, eccrine sweat gland apparatus and nails)"
+                }
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of subcutaneous tissue"
+                }
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Diseases of cutaneous vasculature"
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1473673350",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1525792972",
+            "http://id.who.int/icd/release/11/2022-02/mms/1989556002",
+            "http://id.who.int/icd/release/11/2022-02/mms/789630210",
+            "http://id.who.int/icd/release/11/2022-02/mms/1523445293",
+            "http://id.who.int/icd/release/11/2022-02/mms/1507462233",
+            "http://id.who.int/icd/release/11/2022-02/mms/762797224",
+            "http://id.who.int/icd/release/11/2022-02/mms/252326937",
+            "http://id.who.int/icd/release/11/2022-02/mms/1473673350/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1473673350/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1473673350",
+        "code": "15",
+        "source": "http://id.who.int/icd/entity/1473673350",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Monogenic autoinflammatory syndromes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1576710885",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1576710885"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Nonorgan specific systemic autoimmune disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1008515027",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1008515027"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the musculoskeletal system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1810466448",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1810466448"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Structural developmental anomalies of the skeleton"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/894625870",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/894625870"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Syndromes with connective tissue involvement as a major feature"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1178222588",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1178222588"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Syndromes with skeletal anomalies as a major feature"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1496140949",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1496140949"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the musculoskeletal system or connective tissue"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter contains diseases of musculoskeletal system and diseases of connective tissue."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Temporomandibular joint disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/897101649",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/897101649"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/30659757",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/585064432",
+            "http://id.who.int/icd/release/11/2022-02/mms/1392133133",
+            "http://id.who.int/icd/release/11/2022-02/mms/1433201931",
+            "http://id.who.int/icd/release/11/2022-02/mms/1932345217",
+            "http://id.who.int/icd/release/11/2022-02/mms/1534678903",
+            "http://id.who.int/icd/release/11/2022-02/mms/1369041370",
+            "http://id.who.int/icd/release/11/2022-02/mms/30659757/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/30659757/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f30659757",
+        "code": "16",
+        "source": "http://id.who.int/icd/entity/30659757",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Contact with health services for reasons associated with reproduction"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1144140024",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1144140024"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Predominantly sexually transmitted infections"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1904876434",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1904876434"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Symptoms, signs or clinical findings of the genitourinary system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1907275850",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1907275850"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Female gonococcal pelvic inflammatory disease"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/152245238",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1015780375"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Diseases of the genitourinary system"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "Any disease characterised by pathological changes to the genitourinary system."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Complications of pregnancy, childbirth and the puerperium"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/714000734",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/714000734"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/577470983",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/160690465",
+            "http://id.who.int/icd/release/11/2022-02/mms/73410310",
+            "http://id.who.int/icd/release/11/2022-02/mms/1099536224",
+            "http://id.who.int/icd/release/11/2022-02/mms/411470068",
+            "http://id.who.int/icd/release/11/2022-02/mms/1513302415",
+            "http://id.who.int/icd/release/11/2022-02/mms/554839264",
+            "http://id.who.int/icd/release/11/2022-02/mms/577470983/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/577470983/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f577470983",
+        "code": "17",
+        "source": "http://id.who.int/icd/entity/577470983",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Paraphilic disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/2110604642",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/2110604642"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Adrenogenital disorders"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/131153029",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/131153029"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Predominantly sexually transmitted infections"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1904876434",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1904876434"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Contact with health services for contraceptive management"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1755059161",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1755059161"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Conditions related to sexual health"
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/714000734",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/877352786",
+            "http://id.who.int/icd/release/11/2022-02/mms/1042184245",
+            "http://id.who.int/icd/release/11/2022-02/mms/903303141",
+            "http://id.who.int/icd/release/11/2022-02/mms/21112155",
+            "http://id.who.int/icd/release/11/2022-02/mms/1864248550",
+            "http://id.who.int/icd/release/11/2022-02/mms/299840850",
+            "http://id.who.int/icd/release/11/2022-02/mms/973282267",
+            "http://id.who.int/icd/release/11/2022-02/mms/1421997617",
+            "http://id.who.int/icd/release/11/2022-02/mms/1781019902",
+            "http://id.who.int/icd/release/11/2022-02/mms/207290928"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f714000734",
+        "code": "18",
+        "source": "http://id.who.int/icd/entity/714000734",
+        "classKind": "chapter",
+        "foundationChildElsewhere": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Contact with health services for reasons associated with reproduction"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1144140024",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1144140024"
+            }
+        ],
+        "title": {
+            "@language": "en",
+            "@value": "Pregnancy, childbirth or the puerperium"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "A group of conditions characterised as occurring during the period of time from conception to delivery (pregnancy), during labour and delivery (childbirth) or during the approximately six weeks after delivery during which the uterus returns to the original size (puerperium)."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Postpartum necrosis of pituitary gland"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/768216194",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/768216194"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Obstetrical tetanus"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/262236278",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/262236278"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            }
+        ],
+        "codingNote": {
+            "@language": "en",
+            "@value": "The codes included in this chapter are to be used for conditions related to or aggravated by the pregnancy, childbirth or by the puerperium (maternal causes or obstetric causes)"
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1306203631",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/927970860",
+            "http://id.who.int/icd/release/11/2022-02/mms/287901798",
+            "http://id.who.int/icd/release/11/2022-02/mms/624443803",
+            "http://id.who.int/icd/release/11/2022-02/mms/911707612",
+            "http://id.who.int/icd/release/11/2022-02/mms/1800910986",
+            "http://id.who.int/icd/release/11/2022-02/mms/426167863",
+            "http://id.who.int/icd/release/11/2022-02/mms/1858685964",
+            "http://id.who.int/icd/release/11/2022-02/mms/1008196289",
+            "http://id.who.int/icd/release/11/2022-02/mms/1004987305",
+            "http://id.who.int/icd/release/11/2022-02/mms/494951911",
+            "http://id.who.int/icd/release/11/2022-02/mms/1024145243",
+            "http://id.who.int/icd/release/11/2022-02/mms/680361950",
+            "http://id.who.int/icd/release/11/2022-02/mms/1319339568",
+            "http://id.who.int/icd/release/11/2022-02/mms/861066692",
+            "http://id.who.int/icd/release/11/2022-02/mms/1306203631/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1306203631",
+        "code": "19",
+        "source": "http://id.who.int/icd/entity/1306203631",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Certain conditions originating in the perinatal period"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter includes conditions that have their origin in the perinatal period even though death or morbidity occurs later."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Endocrine, nutritional or metabolic diseases"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/21500692",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/21500692"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Congenital malformations, deformations and chromosomal abnormalities"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/223744320",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/223744320"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Neoplasms"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1630407678",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1630407678"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Injury, poisoning or certain other consequences of external causes"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/435227771",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/435227771"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "VA Tetanus neonatorum"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1650244559"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Congenital gonococcal infection"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/609214049",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/609214049"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain infectious or parasitic diseases - acquired after birth"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1435254666",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1435254666"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Gastroenteritis or colitis of infectious origin"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/588616678",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/588616678"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Hereditary haemolytic anaemia"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1909380523",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1909380523"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Transient hypogammaglobulinaemia of infancy"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1686370790",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1686370790"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain congenital diseases of the nervous system"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1296093776",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1296093776"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "congenital cardiomyopathy"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/282225286",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/282225286"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Paralytic ileus"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1868011045",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1868011045"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Pemphigus neonatorum"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1631069488",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/918813679"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Cradle cap"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1315633810",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1315633810"
+            }
+        ],
+        "codingNote": {
+            "@language": "en",
+            "@value": "Conditions arising in the perinatal period, even though death or morbidity occurs later, should, as far as possible, be coded to chapter 19, which takes precedence over chapters containing codes for diseases by their anatomical site.\n\nFor children less than 28 days old, assume that a reported condition developed in the perinatal period, unless the duration is stated and the onset was after the first completed week of life."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/223744320",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/258484393",
+            "http://id.who.int/icd/release/11/2022-02/mms/770439884",
+            "http://id.who.int/icd/release/11/2022-02/mms/939957586",
+            "http://id.who.int/icd/release/11/2022-02/mms/775270311",
+            "http://id.who.int/icd/release/11/2022-02/mms/223744320/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/223744320/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f223744320",
+        "code": "20",
+        "source": "http://id.who.int/icd/entity/223744320",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Developmental anomalies"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "This chapter includes conditions caused by failure of a particular body site or body system to develop correctly during the antenatal period."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Inborn errors of metabolism"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/733825440",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/733825440"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1843895818",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1994504557",
+            "http://id.who.int/icd/release/11/2022-02/mms/922175770",
+            "http://id.who.int/icd/release/11/2022-02/mms/181201280",
+            "http://id.who.int/icd/release/11/2022-02/mms/1597934337",
+            "http://id.who.int/icd/release/11/2022-02/mms/1088544686",
+            "http://id.who.int/icd/release/11/2022-02/mms/2138796426",
+            "http://id.who.int/icd/release/11/2022-02/mms/1564218495",
+            "http://id.who.int/icd/release/11/2022-02/mms/796618507",
+            "http://id.who.int/icd/release/11/2022-02/mms/346645181",
+            "http://id.who.int/icd/release/11/2022-02/mms/14576949",
+            "http://id.who.int/icd/release/11/2022-02/mms/1342309622",
+            "http://id.who.int/icd/release/11/2022-02/mms/1810466448",
+            "http://id.who.int/icd/release/11/2022-02/mms/1907275850",
+            "http://id.who.int/icd/release/11/2022-02/mms/509543139",
+            "http://id.who.int/icd/release/11/2022-02/mms/1452443292",
+            "http://id.who.int/icd/release/11/2022-02/mms/1843895818/other"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1843895818",
+        "code": "21",
+        "source": "http://id.who.int/icd/entity/1843895818",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Symptoms, signs or clinical findings, not elsewhere classified"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "!markdown\nClinical findings include those found using physical, laboratory and imaging techniques. \n\nDiseases can manifest in many ways and in different body systems. Such specific manifestations may be a reason for treatment or encounter, with or without identifying or addressing the underlying condition.  \nCategories in this chapter include the less well-defined conditions and symptoms that, without the necessary study of the case to establish a final diagnosis, could be designated 'not otherwise specified', 'unknown aetiology' or 'transient'.\n\nThe conditions and signs or symptoms included in this chapter consist of:\n\n  - cases for which no more specific diagnosis can be made even after all the facts bearing on the case have been investigated\n  - signs or symptoms existing at the time of initial encounter that proved to be transient and whose causes could not be determined;\n  - provisional diagnoses in a patient who failed to return for further investigation or care;\n  - cases referred elsewhere for investigation or treatment before the diagnosis was made;\n  - cases in which a more precise diagnosis was not available for any other reason; \n  - certain symptoms, for which supplementary information is provided, that represent important problems in medical care in their own right.\n\nThese categories should be used in conjunction with a code from another chapter that identifies the underlying condition."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain conditions originating in the perinatal period"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1306203631",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1306203631"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Clinical findings on antenatal screening of mother"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/64782063",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/64782063"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/435227771",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/452386362",
+            "http://id.who.int/icd/release/11/2022-02/mms/1842013215",
+            "http://id.who.int/icd/release/11/2022-02/mms/805284915",
+            "http://id.who.int/icd/release/11/2022-02/mms/1489212950",
+            "http://id.who.int/icd/release/11/2022-02/mms/1416283029",
+            "http://id.who.int/icd/release/11/2022-02/mms/592902578",
+            "http://id.who.int/icd/release/11/2022-02/mms/1633923486",
+            "http://id.who.int/icd/release/11/2022-02/mms/375360441",
+            "http://id.who.int/icd/release/11/2022-02/mms/2016483996",
+            "http://id.who.int/icd/release/11/2022-02/mms/252518591",
+            "http://id.who.int/icd/release/11/2022-02/mms/159081656",
+            "http://id.who.int/icd/release/11/2022-02/mms/1121827324",
+            "http://id.who.int/icd/release/11/2022-02/mms/1237810616",
+            "http://id.who.int/icd/release/11/2022-02/mms/163532889",
+            "http://id.who.int/icd/release/11/2022-02/mms/152692065",
+            "http://id.who.int/icd/release/11/2022-02/mms/1236563202",
+            "http://id.who.int/icd/release/11/2022-02/mms/383104340",
+            "http://id.who.int/icd/release/11/2022-02/mms/609351978",
+            "http://id.who.int/icd/release/11/2022-02/mms/435227771/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/435227771/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f435227771",
+        "code": "22",
+        "source": "http://id.who.int/icd/entity/435227771",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Injury, poisoning or certain other consequences of external causes"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "!markdown\nIn the ICD, injury means physical or physiological bodily harm resulting from interaction of the body with energy (mechanical, thermal, electrical, chemical or radiant, or due to extreme pressure) in an amount, or at a rate of transfer, that exceeds physical or physiological tolerance. Injury can also result from lack of vital elements, such as oxygen. Poisoning by and toxic effects of substances are included, as is damage of or due to implanted devices.  \n\nInjury usually has rapid onset in response to a well-defined event (e.g. a car crash, striking the ground after falling, drinking a strongly alkaline liquid, an overdose of a medication, a burn sustained during a surgical procedure). These events are often referred to as external causes of injury. The injurious energy can, however, originate from the injured person and/or from his or her immediate environment (e.g. a person running on a hot day sustains heat exhaustion), and injury can be caused by the injured person (i.e. intentional self-harm).\n\nInjury includes manifestations that are evident immediately after onset, which may persist or not, and manifestations that first become evident at a later date."
+        },
+        "exclusion": [
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Stress fracture, not elsewhere classified"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1439320197",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1439320197"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Pathological fracture, not elsewhere classified"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/639949585",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/639949585"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Certain specified obstetric trauma"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1146004591",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1146004591"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Malunion of fracture"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/560404604",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/560404604"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Birth injury"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/624443803",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/624443803"
+            },
+            {
+                "label": {
+                    "@language": "en",
+                    "@value": "Nonunion of fracture"
+                },
+                "foundationReference": "http://id.who.int/icd/entity/1143789038",
+                "linearizationReference": "http://id.who.int/icd/release/11/2022-02/mms/1143789038"
+            }
+        ]
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/850137482",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/980862652",
+            "http://id.who.int/icd/release/11/2022-02/mms/851395624",
+            "http://id.who.int/icd/release/11/2022-02/mms/73322695",
+            "http://id.who.int/icd/release/11/2022-02/mms/128104623",
+            "http://id.who.int/icd/release/11/2022-02/mms/1491356379",
+            "http://id.who.int/icd/release/11/2022-02/mms/491063206",
+            "http://id.who.int/icd/release/11/2022-02/mms/185842968",
+            "http://id.who.int/icd/release/11/2022-02/mms/2143219175",
+            "http://id.who.int/icd/release/11/2022-02/mms/558785723",
+            "http://id.who.int/icd/release/11/2022-02/mms/850137482/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/850137482/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f850137482",
+        "code": "23",
+        "source": "http://id.who.int/icd/entity/850137482",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "External causes of morbidity or mortality"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "!markdown\nThe WHO definition of an ‘injury’ is: ‘Injuries are caused by acute exposure to physical agents such as mechanical energy, heat, electricity, chemicals, and ionizing radiation interacting with the body in amounts or at rates that exceed the threshold of human tolerance. In some cases, (for example, drowning and frostbite), injuries result from the sudden lack of essential agents such as oxygen or heat’.\nInjuries may be categorized in a number of ways. However, for most analytical purposes and for identifying intervention opportunities, it is especially useful to categorize injuries according to whether or not they were deliberately inflicted and by whom. Commonly used categories are:\n\n- unintentional (i.e. accidental)\n- intentional (i.e. deliberate):\n- interpersonal (e.g. assault and homicide)\n- self-harm (e.g. abuse of drugs and alcohol, self-mutilation, suicide)\n- legal intervention (e.g. action by police or other law enforcement personnel)\n- war, civil insurrection and disturbances (e.g. demonstrations and riots)\n- undetermined intent\n\nRegarding the collection of events that cause injuries, a set of definitions apply. See section ‘Definition related to transport accidents’."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1249056269",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/1206995198",
+            "http://id.who.int/icd/release/11/2022-02/mms/57624301",
+            "http://id.who.int/icd/release/11/2022-02/mms/1249056269/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/1249056269/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1249056269",
+        "code": "24",
+        "source": "http://id.who.int/icd/entity/1249056269",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Factors influencing health status or contact with health services"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "!markdown\nCategories in this chapter are provided for occasions when circumstances other than a disease, injury or external cause classifiable elsewhere are recorded as \"diagnoses\" or \"problems\". This can arise in two main ways: \n\n1.\tWhen a person who may or may not be sick encounters the health services for some specific purpose, such as to receive limited care or service for a current condition, to donate an organ or tissue, to receive prophylactic vaccination or to discuss a problem which is in itself not a disease or injury. \n\n2.\tWhen some circumstance or problem is present which influences the person's health status but is not in itself a current illness or injury. Such circumstance or problem may be elicited during population surveys, when the person may or may not be currently sick, or be recorded as additional information to be borne in mind when the person is receiving care for some illness or injury."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/1596590595",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/486488173",
+            "http://id.who.int/icd/release/11/2022-02/mms/311473325"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1596590595",
+        "code": "25",
+        "source": "http://id.who.int/icd/entity/1596590595",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Codes for special purposes"
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/718687701",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/66486001",
+            "http://id.who.int/icd/release/11/2022-02/mms/347093131",
+            "http://id.who.int/icd/release/11/2022-02/mms/718687701/other",
+            "http://id.who.int/icd/release/11/2022-02/mms/718687701/unspecified"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f718687701",
+        "code": "26",
+        "source": "http://id.who.int/icd/entity/718687701",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Supplementary Chapter Traditional Medicine Conditions - Module I"
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/231358748",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/2144513044",
+            "http://id.who.int/icd/release/11/2022-02/mms/1114122847",
+            "http://id.who.int/icd/release/11/2022-02/mms/861284911"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f231358748",
+        "code": "V",
+        "source": "http://id.who.int/icd/entity/231358748",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Supplementary section for functioning assessment"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "The section allows for creating functioning profiles and overall functioning scores of individuals, which are suitable to describe and quantify the level of functioning associated with a health conditions.\n\nTo guide functioning assessment, the section includes two ICF-based instruments developed by WHO: the WHO Disability Assessment Schedule (WHODAS 2.0 36-item version), and the Model Disability Survey (MDS). \n\nThe section is complemented by a generic set of functioning categories of high explanatory power derived from the ICF Annex 9."
+        }
+    },
+    {
+        "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+        "@id": "http://id.who.int/icd/release/11/2022-02/mms/979408586",
+        "parent": [
+            "http://id.who.int/icd/release/11/2022-02/mms"
+        ],
+        "child": [
+            "http://id.who.int/icd/release/11/2022-02/mms/815889539",
+            "http://id.who.int/icd/release/11/2022-02/mms/614922797",
+            "http://id.who.int/icd/release/11/2022-02/mms/71556738",
+            "http://id.who.int/icd/release/11/2022-02/mms/1413523709",
+            "http://id.who.int/icd/release/11/2022-02/mms/1154280071",
+            "http://id.who.int/icd/release/11/2022-02/mms/411368752",
+            "http://id.who.int/icd/release/11/2022-02/mms/870996432",
+            "http://id.who.int/icd/release/11/2022-02/mms/1004338415",
+            "http://id.who.int/icd/release/11/2022-02/mms/69327534",
+            "http://id.who.int/icd/release/11/2022-02/mms/1321407960",
+            "http://id.who.int/icd/release/11/2022-02/mms/1897222875",
+            "http://id.who.int/icd/release/11/2022-02/mms/1693181075",
+            "http://id.who.int/icd/release/11/2022-02/mms/1597357976",
+            "http://id.who.int/icd/release/11/2022-02/mms/1948746454"
+        ],
+        "browserUrl": "https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f979408586",
+        "code": "X",
+        "source": "http://id.who.int/icd/entity/979408586",
+        "classKind": "chapter",
+        "title": {
+            "@language": "en",
+            "@value": "Extension Codes"
+        },
+        "definition": {
+            "@language": "en",
+            "@value": "!markdown\nExtension codes should never be used in primary classification coding or tabulation. \n- They are provided for use as supplementary or additional codes when desired to identify more detail in statistical categories classified elsewhere. \n- Extension codes may be used alone in other contexts."
+        }
+    }
+]

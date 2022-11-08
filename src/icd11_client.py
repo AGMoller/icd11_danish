@@ -5,6 +5,8 @@ from typing import Dict, List
 import requests
 from dotenv import load_dotenv
 
+from file_handling import read_json, save_json
+
 load_dotenv()
 
 
@@ -141,6 +143,8 @@ if __name__ == "__main__":
     # root = icd11_client.basic_information_linearization()
 
     data = icd11_client.get_icd11_taxonomy()
+
+    save_json("data/icd11_taxonomy.json", data)
 
     # data = [root]
 
