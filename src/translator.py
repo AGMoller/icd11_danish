@@ -1,3 +1,4 @@
+import os
 import warnings
 from typing import Dict, List, Literal, Optional, Union
 
@@ -109,6 +110,8 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
 
 
 if __name__ == "__main__":
+
+    os.environ["CUDA_LAUNCH_BLOCKING"] = 1
 
     # not sure if I have duplicates here.
     data = list(unique_everseen(read_json("data/icd11_taxonomy.json")))
