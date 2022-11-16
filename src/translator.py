@@ -2,6 +2,7 @@ import warnings
 from typing import Dict, List, Literal, Optional, Union
 
 import numpy as np
+from iteration_utilities import unique_everseen
 from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
@@ -110,7 +111,7 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
 if __name__ == "__main__":
 
     # not sure if I have duplicates here.
-    data = list(set(read_json("data/icd11_taxonomy.json")))
+    data = list(unique_everseen(read_json("data/icd11_taxonomy.json")))
 
     translator = Translator()
     translated = translate_elements(data, translator)
