@@ -56,12 +56,13 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
 
         translated_element = {}
         for key, value in element.items():
-            if key == "title":
-                translated_element[key] = {
-                    "language": "da",
-                    "value": translator.translate(value["@value"])[0],
-                }
-            elif key == "definition":
+            if key in [
+                "title",
+                "description",
+                "longDefinition",
+                "fullySpecifiedName",
+                "codingNote",
+            ]:
                 translated_element[key] = {
                     "language": "da",
                     "value": translator.translate(value["@value"])[0],
@@ -84,7 +85,7 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
                         }
                     )
                 translated_element[key] = translated_children
-            elif key == "inclusion":
+            elif key in ["inclusion", "indexTerm"]:
                 translated_children = []
                 for child in value:
                     translated_children.append(
@@ -98,15 +99,6 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
                         }
                     )
                 translated_element[key] = translated_children
-
-            elif key == "codingNote":
-                translated_element[key] = {
-                    "language": "da",
-                    "value": translator.translate(
-                        value["@value"],
-                    ),
-                }
-
             else:
                 translated_element[key] = value
 
@@ -117,7 +109,8 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
 
 if __name__ == "__main__":
 
-    data = read_json("data/icd11_taxonomy.json")
+    # not sure if I have duplicates here.
+    data = list(set(read_json("data/icd11_taxonomy.json")))
 
     translator = Translator()
     translated = translate_elements(data, translator)
