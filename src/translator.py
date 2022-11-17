@@ -80,7 +80,9 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
                                     0
                                 ],
                             },
-                            "foundationReference": child["foundationReference"],
+                            "foundationReference": child["foundationReference"]
+                            if "foundationReference" in child
+                            else None,
                             "linearizationReference": child["linearizationReference"]
                             if "linearizationReference" in child
                             else None,
