@@ -35,9 +35,9 @@ class Translator:
         if isinstance(text, str):
             text = [text]
 
-        tokenized_text = self.tokenizer(text, return_tensors="pt", padding=True).to(
-            self.device
-        )
+        tokenized_text = self.tokenizer(
+            text, return_tensors="pt", padding=True, max_length=512, truncation=True
+        ).to(self.device)
         translation = self.model.generate(**tokenized_text)
         translated_text = self.tokenizer.batch_decode(
             translation, skip_special_tokens=True
