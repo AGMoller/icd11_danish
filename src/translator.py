@@ -61,6 +61,7 @@ def translate_elements(data: List[Dict], translator: Translator) -> List[Dict]:
             if key in [
                 "title",
                 "description",
+                "definition",
                 "longDefinition",
                 "fullySpecifiedName",
                 "codingNote",
@@ -120,7 +121,7 @@ if __name__ == "__main__":
 
     translator = Translator()
     translated = translate_elements(data, translator)
-    save_json("data/icd11_taxonomy_da.json", translated)
+    save_json("data/icd11_taxonomy_da1.json", translated)
 
     # translator = Translator()
     # # translator.model_to_cpu()
